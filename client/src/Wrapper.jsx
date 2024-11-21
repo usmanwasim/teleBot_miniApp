@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import { persistStore } from 'redux-persist';
 
-import { AppKitProvider } from './Wagmi';
+import AppKitProvider from './Wagmi';
 import { makeStore } from './utils/store/store';
 import ContextAPI from './utils/ContextAPI';
 

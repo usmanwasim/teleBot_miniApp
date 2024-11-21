@@ -69,7 +69,7 @@ bot.onText(/^\/start(?: (.+))?$/, async (msg, match) => {
                             text: '📱 Mini App',
                             web_app: {
                                 // url: `https://vn4x2zqt-5173.inc1.devtunnels.ms/?chatId${user.chatId}`,
-                                url: `https://vn4x2zqt-5173.inc1.devtunnels.ms/?chatId${user.chatId}`,
+                                url: 'https://telebotminiapptest.netlify.app',
                             },
                         },
                     ],

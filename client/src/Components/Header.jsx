@@ -78,8 +78,8 @@ const Header = () => {
                                     role="presentation"
                                 >
                                     <Box>LOGO</Box>
-                                    <appkit-button />
-                                    {/* <w3m-button /> */}
+                                    {/* <appkit-button /> hum reown kit ke liye */}
+                                    <w3m-button />
                                 </Box>
                             </Drawer>
                         </Hidden>
